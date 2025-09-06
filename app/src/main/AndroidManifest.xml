@@ -16,10 +16,16 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".StandardActivity"
+            android:exported="true"
+            android:launchMode="standard" />
+        <activity
+            android:name=".SingleTopActivity"
+            android:exported="true"
+            android:launchMode="singleTop" />
     </application>
-
 </manifest>
